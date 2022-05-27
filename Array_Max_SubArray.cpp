@@ -4,7 +4,7 @@ using namespace std;
 
 int max_subarray(int arr[], int size){
 
-    //int crrsum=0;
+    int crrsum=0;
     int ans=INT_MIN;
     
     for(int i=0;i<size;i++){
@@ -16,6 +16,16 @@ int max_subarray(int arr[], int size){
         
     }
     return ans;
+    // int max_sum=INT_MIN;
+    // int crr_sum=0;
+    //     for(int num:arr){
+    //         crr_sum+=num;
+    //         max_sum=max(max_sum,crr_sum);
+    //         if(crr_sum<0){
+    //             crr_sum=0;
+    //         }
+    //     }
+    //     return max_sum;
 
 }
 int main()
