@@ -34,7 +34,7 @@ int main(){
 
     int i=search(arr,0,n-1,key);
     if(i!=-1){
-        cout<<"Index"<<i<<endl;
+        cout<<"Index:"<<i<<endl;
     }else{
         cout<<"Key is not Found...."<<endl;
     }
